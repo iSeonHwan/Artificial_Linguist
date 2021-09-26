@@ -1,4 +1,4 @@
-# Generating_Dictionary_Programe
+# Artificial Communicator Programme(A.C.P.)
 
 ## 배경
 
@@ -30,6 +30,8 @@
    - 2개 이상의 언어 자료를 비교하여 계열 관계에 따라 언어 단위를 추출한다.
   
    - 추출된 언어 단위들의 통합 관계를 추출한다.
+
+   - 단어 수준의 언어 정보는 HPSG 및 
 
 6. 가네의 학습 단계(변별, 군집화 등)를 프로그래밍에 반영한다.
 

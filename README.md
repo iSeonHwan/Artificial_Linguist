@@ -3,17 +3,28 @@
 ## 배경
 
 기술의 발달이 일반인들에게 편의와 자유를 더 효율적으로 제공하기 위해서는 일반인들이 사용하기 편해야 한다.
+
 for efficiently providing confidence and free to people, it is confident to use by people.
 
+
 사람의 가장 본질적 특징 중 하나는 바로 언어이다.
+
 Human's essential factor is language.
 
+
 따라서 기술과 로봇이 언어를 이해하고 처리하고 생산할 수 있어야 한다.
+
 Thus, Technology and Robot should comprehend language and speech it.
+
 
 언어학 이론의 결과를 일일이 코딩으로 구성하는 연역적 접근만으로는 프로그래밍상 언어 구현에 한계가 있었다.
 
-신경망을 구성하고, 언어 자료를 입력하는 것은 언어 구현에 어느 정도 성과가 있으나 사람이 완전히 이해하기가 힘드므로 활용에 어려움이 있다.
+연역법: deduction
+
+신경망을 구성하고, 언어 자료를 입력하는 것은 언어 구현에 어느 정도 성과가 있으나 사람이 완전히 이해하기가 힘드므로 활용에 어려움이 있다.(자료 조사 필요)
+
+신경망을 통한 귀납적 구성만으로는 정보 처리에 많은 자원이 소요된다.(자료 조사 필요)
+
 
 언어학 이론을 컴퓨터 프로그램에 직접 구현하는 것이 아니라, 컴퓨터 프로그램이 언어 규칙을 스스로 구성할 수 있도록 한다.
 
@@ -23,10 +34,13 @@ Thus, Technology and Robot should comprehend language and speech it.
 ## 목표
 
 언어 표현을 입력 받았을 때, 자동으로 문장 규칙을 만들어주는 프로그램을 만든다.
+
 product programe to automatically make gramatical rule, when computer input language message
 
 언어 표현을 입력 받았을 때, 자동으로 사전을 만들어주는 프로그램을 만든다.
+
 언어 표현을 입력 받았을 때, 자동으로 특적 맥락 정보를 만들어주는 프로그램을 만든다.
+
 특정 맥락에 따라 적절한 언어 표현을 하는 프로그램을 만든다.
 
 ## 기본 아이디어

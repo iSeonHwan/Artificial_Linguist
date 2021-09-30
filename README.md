@@ -19,14 +19,22 @@ Thus, Technology and Robot should comprehend language and speech it.
 
 언어학 이론의 결과를 일일이 코딩으로 구성하는 연역적 접근만으로는 프로그래밍상 언어 구현에 한계가 있었다.
 
-연역법: deduction
+Deductive approach in programing natural language was limits. 
+
 
 신경망을 구성하고, 언어 자료를 입력하는 것은 언어 구현에 어느 정도 성과가 있으나 사람이 완전히 이해하기가 힘드므로 활용에 어려움이 있다.(자료 조사 필요)
 
-신경망을 통한 귀납적 구성만으로는 정보 처리에 많은 자원이 소요된다.(자료 조사 필요)
+Inductive method is trouble for human to comprehend result of program constructing artificial neural network.
+
+
+신경망을 통한 귀납적 구성만으로는 정보 처리에 많은 자원이 소비된다.(자료 조사 필요)
+
+This method need excessive plenty of resource in coumputer. 
 
 
 언어학 이론을 컴퓨터 프로그램에 직접 구현하는 것이 아니라, 컴퓨터 프로그램이 언어 규칙을 스스로 구성할 수 있도록 한다.
+
+Linguistics immediately making no, Computer code self construct languistic principle.
 
 컴퓨터가 구성하는 언어 규칙을 인간(사용자)이 이해할 수 있는 형태가 되도록 한다.
 
@@ -74,8 +82,12 @@ product programe to automatically make gramatical rule, when computer input lang
    - 메모리 사용은 최소화한다.
    - 언어 처리는 텍스트 파일의 입출력
 
-## 연계
+## 단계
 
-인간과 자연스럽게 대화하는 인공지능 프로그램
+언어 텍스트를 읽고 자동으로 (형태소, 단어, 구, 문장, 텍스트 등) 언어 단위를 분류하는 프로그램을 개발한다.
+
+언어 텍스트를 읽고 자동으로 (형태소, 단어 등의) 사전을 만드는 프로그램을 개발한다.
+
+언어 텍스트를 자동으로 언어 규칙을 생성하는 프로그램을 개발한다.
 
 ## 참고자료

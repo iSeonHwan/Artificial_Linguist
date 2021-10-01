@@ -1,6 +1,6 @@
 # Artificial Communicator Programme(A.C.P.)
 
-## 배경
+## Background
 
 기술의 발달이 일반인들에게 편의와 자유를 더 효율적으로 제공하기 위해서는 일반인들이 사용하기 편해야 한다.
 
@@ -34,18 +34,22 @@ This method need excessive plenty of resource in coumputer.
 
 언어학 이론을 컴퓨터 프로그램에 직접 구현하는 것이 아니라, 컴퓨터 프로그램이 언어 규칙을 스스로 구성할 수 있도록 한다.
 
-Linguistics immediately making no, Computer code self construct languistic principle.
+I want to make program to construct itself Linguistic principle.
+
 
 컴퓨터가 구성하는 언어 규칙을 인간(사용자)이 이해할 수 있는 형태가 되도록 한다.
 
+I want to make program that human understand result of artificial language acquisition.
 
-## 목표
+## Goal
 
-언어 표현을 입력 받았을 때, 자동으로 문장 규칙을 만들어주는 프로그램을 만든다.
+1. 언어 표현을 입력 받았을 때, 자동으로 문장 규칙을 만들어주는 프로그램을 만든다.
 
-product programe to automatically make gramatical rule, when computer input language message
+1. product programe to automatically make gramatical rule, when computer input language message
 
-언어 표현을 입력 받았을 때, 자동으로 사전을 만들어주는 프로그램을 만든다.
+2. 언어 표현을 입력 받았을 때, 자동으로 사전을 만들어주는 프로그램을 만든다.
+
+2. Automatically creating dictionary program When it get language message.
 
 언어 표현을 입력 받았을 때, 자동으로 특적 맥락 정보를 만들어주는 프로그램을 만든다.
 

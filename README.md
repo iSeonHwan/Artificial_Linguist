@@ -51,7 +51,9 @@ I want to make program that human understand result of artificial language acqui
 
 2. Automatically creating dictionary program When it get language message.
 
-언어 표현을 입력 받았을 때, 자동으로 특적 맥락 정보를 만들어주는 프로그램을 만든다.
+3. 언어 표현을 입력 받았을 때, 자동으로 특정 맥락 정보를 만들어주는 프로그램을 만든다.
+
+3. Automatically program creating context information matrix , when it get language message.
 
 특정 맥락에 따라 적절한 언어 표현을 하는 프로그램을 만든다.
 

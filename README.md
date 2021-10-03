@@ -16,6 +16,17 @@ Human's essential factor is language.
 
 Thus, Technology and Robot should comprehend language and speech it.
 
+언어(Language)란, 다른 생명체와 달리 인간만이 사용하는 의사소통 체계를 말한다.
+
+Language is system of communication to use only by human.
+
+자연어(Natural language)란, 인간이 선천적 능력인 언어 습득 장치(Language Acquisition Device)를 통해서 형성한 언어를 말한다.
+
+Natural language is language constructed by Language Acquistion Device(LAD).
+
+자연어 처리란, 자연어의 규칙, 의미 등을 컴퓨터가 처리하도록 하는 일을 가리킨다.
+
+Natural language processing indicates handling of principle, meaning of natural language.
 
 언어학 이론의 결과를 일일이 코딩으로 구성하는 연역적 접근만으로는 프로그래밍상 언어 구현에 한계가 있었다.
 

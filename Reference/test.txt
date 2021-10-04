@@ -1,4 +1,0 @@
-안녕, 세상아!
-Hellow, world!
-지금 이 텍스트 파일은 시험용입니다.
-This text file is to test.

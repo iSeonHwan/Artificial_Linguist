@@ -14,7 +14,7 @@ int main(void){
 	char text[100];
 	//텍스트 파일을 읽어들인다.
 	//fopen_s(&fp, "test.txt", "r"); // "r"은 읽기 전용의 옵션을 가리킨다. //우분투 환경에서는 컴파일 오류가 발생하였다. 출처 자료의 빌드 환경은 윈도우의 비주얼 스튜디오 2019였다. 즉, 환경에 따라 지원하는 함수가 달라지는 것 같다.
-	fp = fopen("test.txt", "r");
+	fp = fopen("test_1.txt", "r");
 	
 	if(fp == NULL){
 		printf("파일 읽기 실패 \n");

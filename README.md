@@ -64,17 +64,25 @@ I want to make program that human understand result of artificial language acqui
 
 3. 언어 표현을 입력 받았을 때, 자동으로 특정 맥락 정보를 만들어주는 프로그램을 만든다.
 
-3. Automatically program creating context information matrix , when it get language message.
+3. Automatical program creating context information matrix , when it get language message.
 
-특정 맥락에 따라 적절한 언어 표현을 하는 프로그램을 만든다.
+4. 특정 맥락에 따라 적절한 언어 표현을 하는 프로그램을 만든다.
+
+4. Program speeching language message according to certain context.
 
 ## 기본 아이디어
 
-1. 인간의 언어 습득 단계를 프로그래밍으로 구현한다.
+1. 인간의 언어 습득 과정을 프로그래밍으로 구현한다.
+
+1. I will make Program to realize language acquisition process
 
    - 사용자가 일일이 언어 규칙을 만들지 않고, 프로그램이 스스로 언어 규칙을 만들어 가도록 한다.
+   
+   - The program construct language principle itself, which do not receive input of rule that user make.
   
 2. 입력 자료는 언어 자료로 한정되어야 한다. 그 범위는 사용자가 한정해준다.
+
+2. input data is limited. The scope is decided by user.
 
 3. 언어 규칙은 언어 보편적인 변형생성문법, HPSG를 반영한다.
 

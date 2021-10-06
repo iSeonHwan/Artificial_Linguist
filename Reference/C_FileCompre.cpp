@@ -8,102 +8,51 @@ Write date: 2021. 9. 28. ~ 2021. 10. 1.
 
 #include <stdio.h>
 
-void ComfirmFile ( FILE * agr1 );
-void PrintFile(FILE * arg1);
-
-
 int main(void){
 
-	//파일 포인터 fp를 선언한다.
-	FILE * fp1, fp2, fp3;
+	//파일 포인터 fp1, fp2, fp3를 선언한다.
+	FILE * fp1;
+	FILE * fp2; 
+	FILE * fp3;
 	//읽어들인 텍스트 파일을 임시로 저장할 (버퍼) 변수 'text'를 만든다.
-	char text[100];
+	char text1[100];
+	char text2[100];
+	char text3[100];
 	//텍스트 파일을 읽어들인다.
 	//fopen_s(&fp, "test.txt", "r"); // "r"은 읽기 전용의 옵션을 가리킨다. //우분투 환경에서는 컴파일 오류가 발생하였다. 출처 자료의 빌드 환경은 윈도우의 비주얼 스튜디오 2019였다. 즉, 환경에 따라 지원하는 함수가 달라지는 것 같다.
 	fp1 = fopen("test_1.txt", "r");
 	fp2 = fopen("test_2.txt", "r");
 	fp3 = fopen("test_3.txt", "r");
 	
-	//파일을 정상적으로 읽었는지의 여부를 검사한다.
-	/*
-	if(fp1 == NULL){
-		printf("파일 읽기 실패 \n");
-		return 1;
-	}
-	if(fp2 == NULL){
-		printf("파일 읽기 실패 \n");
-		return 1;
-	}
-	if(fp3 == NULL){
-		printf("파일 읽기 실패 \n");
-		return 1;
-	}
-	*/
-	/* 위의 코드를 아래와 같이 일반환한다.
-	void ComfirmFile ( FILE * agr1 ){
-	if(agr1 == NULL]){
-		printf("파일 읽기 실패 \n");
-		return 1;
-		}
-	}
-	*/
-	ComfirmFile(fp1);
-	ComfirmFile(fp2);
-	ComfirmFile(fp3);
+	fgets(text1, 100, fp1);
+	fgets(text2, 100, fp2);
+	fgets(text3, 100, fp3);
 	
-	/*
-	while(1){
-		fgets(text, 100, fp1); //fgets()는 데이터를 한 줄씩 읽어들이는 함수이다.
-		printf("%s\n", text);
-		if(feof(fp1)) break; //feof()는 파일의 끝을 만나면 true를 돌려주는 함수이다.
+	//인덱스 값을 설정한다.
+	int j = 0;
+	//일정한 인덱스 값이 되기 전까지 반복문을 돈다.
+	while(j != 99){
+	    if(text1[j] == text2[j]){
+	          //인덱스 값의 조건을 충족하지 못했다면, 1을 증가시킨다. 만일, 인덱스의 값을 충족했다면 두 버퍼의 텍스트가 동일함을 출력하고 반복문을 종료한다.
+	        if(j != 99){j++;}
+	        else{
+	            printf("text1 is equal to text2.\n");
+	            break;
+	            }
+	    }
+	     //점검 중간에 다름이 발견되면, 두 텍스트가 동일하지 않음을 출력하고 반복문을 종료한다.
+	    else{
+	        printf("text1 is not equal to text2.\n");
+	        break;
+	    }
 	}
-	
-	while(1){
-		fgets(text, 100, fp2);
-		printf("%s\n", text);
-		if(foef(fp2)) break;
-	}
-	
-	while(1){
-		fgets(text, 100, fp3);
-		printf("%s\n", text);
-		if(foef(fp3)) break;
-	}
-	*/
-	/* 위 코드를 일반화하하고 사용자 정의 함수로 만들면 아래와 같다.
-	void PrintFile(FILE * arg1){
-		while(1){
-			fgets(text, 100, FILE * arg1);
-			printf("%s\n", text);
-			if(foef(FILE * arg1)) break;
-		}
-	}
-	*/
-	PrintFile(fp1);
-	PrintFile(fp2);
-	PrintFile(fp3);
-	
+
+
 	//읽어들인 텍스트 파일을 닫는다.
 	fclose(fp1);
 	fclose(fp2);
 	fclose(fp3);
 	return 0;
-}
-
-void ComfirmFile ( FILE * agr1 ){
-if(agr1 == NULL]){
-	printf("파일 읽기 실패 \n");
-	return 1;
-	}
-}
-
-void PrintFile(FILE * arg1){
-	printf("======FILE=====\n");
-	while(1){
-		fgets(text, 100, FILE * arg1);
-		printf("%s\n", text);
-		if(foef(FILE * arg1)) break;
-	}
 }
 
 /*

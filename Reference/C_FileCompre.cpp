@@ -27,24 +27,48 @@ int main(void){
 	fgets(text1, 100, fp1);
 	fgets(text2, 100, fp2);
 	fgets(text3, 100, fp3);
-	
+
+
+	//인덱스 값을 설정한다.
+	int i = 0;
+	//일정한 인덱스 값이 되기 전까지 반복문을 돈다.
+	while(i != 99){
+	    //버퍼의 배열 위치 값이 서로 동일하다면 인덱스 값을 증가시킨다.
+	    if(text1[i] == text2[i]){
+         i++;
+	    }
+	    //버퍼의 배열 위치 값이 서로 동일하지 않다면 반복문을 빠져 나간다.
+	    else if(text1[i] != text2[i]){
+	    	break;
+	    }
+	}
+	//인덱스의 값에 따라서 두 버퍼의 값이 같은지 다른지를 판단하여 출력한다.
+	if(i == 99){
+		printf("text1 is equal to text2.\n");
+	}
+	else if(i != 99){
+		printf("text1 is not equal to text2.\n");
+	}
+
 	//인덱스 값을 설정한다.
 	int j = 0;
 	//일정한 인덱스 값이 되기 전까지 반복문을 돈다.
 	while(j != 99){
-	    if(text1[j] == text2[j]){
-	          //인덱스 값의 조건을 충족하지 못했다면, 1을 증가시킨다. 만일, 인덱스의 값을 충족했다면 두 버퍼의 텍스트가 동일함을 출력하고 반복문을 종료한다.
-	        if(j != 99){j++;}
-	        else{
-	            printf("text1 is equal to text2.\n");
-	            break;
-	            }
+	    //버퍼의 배열 위치 값이 서로 동일하다면 인덱스 값을 증가시킨다.
+	    if(text1[j] == text3[j]){
+         j++;
 	    }
-	     //점검 중간에 다름이 발견되면, 두 텍스트가 동일하지 않음을 출력하고 반복문을 종료한다.
-	    else{
-	        printf("text1 is not equal to text2.\n");
-	        break;
+	    //버퍼의 배열 위치 값이 서로 동일하지 않다면 반복문을 빠져 나간다.
+	    else if(text1[j] != text3[j]){
+	    	break;
 	    }
+	}
+	//인덱스의 값에 따라서 두 버퍼의 값이 같은지 다른지를 판단하여 출력한다.
+	if(j == 99){
+		printf("text1 is equal to text3.\n");
+	}
+	else if(j != 99){
+		printf("text1 is not equal to text3.\n");
 	}
 
 

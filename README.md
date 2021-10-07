@@ -78,7 +78,7 @@ I want to make program that human understand result of artificial language acqui
 
    - 사용자가 일일이 언어 규칙을 만들지 않고, 프로그램이 스스로 언어 규칙을 만들어 가도록 한다.
    
-   - The program construct language principle itself, which do not receive input of rule that user make.
+  - The program construct language principle itself, which do not receive input of rule that user make.
   
 2. 입력 자료는 언어 자료로 한정되어야 한다. 그 범위는 사용자가 한정해준다.
 
@@ -86,12 +86,23 @@ I want to make program that human understand result of artificial language acqui
 
 3. 언어 규칙은 언어 보편적인 변형생성문법, HPSG를 반영한다.
 
+3. I design program reflected HPSG, transformational generative grammar, etc of universal language rule.
+
    - 언어 발달 과정에는 변형생성문법을 사용한다.
+   
+  - using transformational grammar to language development stage.
+   
    - 언어 발달이 어느 정도 고착화되면 HPSG를 사용한다.
+   
+  - using HPSG when language development step complete.
   
 4. 언어 자료를 입력한다.
 
+4. User input language data.
+
 5. 언어 자료(대개 문장 단위)들을 계열관계와 통합관계에 따라 분석한다.
+
+5. Program analyse language data(usually sentence) according to associated or integrated relation.
 
    - 2개 이상의 언어 자료를 비교하여 계열 관계에 따라 언어 단위를 추출한다.
   

@@ -104,21 +104,36 @@ I want to make program that human understand result of artificial language acqui
 
 5. Program analyse language data(usually sentence) according to associated or integrated relation.
 
-   - 2개 이상의 언어 자료를 비교하여 계열 관계에 따라 언어 단위를 추출한다.
-  
-   - 추출된 언어 단위들의 통합 관계를 추출한다.
+    - 2개 이상의 언어 자료를 비교하여 계열 관계에 따라 언어 단위를 추출한다.
+    
+    - to extract language unit according associated relation as result of comparing language data.
+    
+    - 추출된 언어 단위들의 통합 관계를 추출한다.
+    
+    - to extract integrated relation of language units.
 
-   - 단어 수준의 언어 정보는 HPSG 및 
+    - (표현과 의미 관계가 자의적인 관계인) 단어, 접사 등 언어 정보는 HPSG에 준하는 틀로 저장하고 활용한다.
+
+    - to save, use with frame based upon HPSG matrix about language unit of arbitrary relation about meaning and expression.
 
 6. 가네의 학습 단계(변별, 군집화 등)를 프로그래밍에 반영한다.
 
-7. 정보 처리와 저장의 자원을 효율적으로 활용한다.
+6. This program reflect learning step of Gagne's Theory.
 
-   - 언어는 되도록 씨(C), 씨피피(CPP)를 사용한다.
-   - 메모리 사용은 최소화한다.
-   - 언어 처리는 텍스트 파일의 입출력
+7. 정보 처리와 저장을 효율적으로 활용한다.
 
-## 단계
+7. This program utilize saving and handling of information efficiently 
+
+    - 언어는 되도록 씨(C), 씨피피(CPP)를 사용한다.
+    
+    - to use C, C++ as Major programing language.
+
+    - 메모리 사용은 최소화한다.
+    
+    - to minimize of momory usage amount.
+
+
+## 단계(Step)
 
 언어 텍스트를 읽고 자동으로 (형태소, 단어, 구, 문장, 텍스트 등) 언어 단위를 분류하는 프로그램을 개발한다.
 

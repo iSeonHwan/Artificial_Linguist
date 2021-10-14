@@ -19,13 +19,18 @@ struct DItem{
 	    //Noun, Verb, Adjective, Determiner, Adverb, Conjunction etc. I disagree postposition as POS in common korean grammar theory.
 	    //a port of POS is that the list is changing(noun, verb etc), the others is fix(determiner, conjunction etc). 
 	
-	
+		// use inheritance of cpp? 
+		
+		struct PoS{ };
 	
 	  //Information about the relation of cooccurence.
 	
 	
-	
 	//Referential meaning
+	
+		//connect image or image value( ex: result of casecadeclassfier).
+	
+		// explanatory information as language. It is like a dictionary's explian.
 	
 	//Connotative meaning
 	

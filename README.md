@@ -14,7 +14,7 @@ for efficiently providing confidence and free to people, it is confident to use 
 
 4. Program speeching language message according to certain context.
 
-## 기본 아이디어
+## Basic Idea
 
 1. I will make Program to realize language acquisition process
 
@@ -48,7 +48,7 @@ for efficiently providing confidence and free to people, it is confident to use 
 
     - to minimize of momory usage amount.
 
-## 단계(Step)
+## Step
 
 I develop program that read text, automatically classify language unit(morpheme, word, sentence, discourse, etc).
 
@@ -56,4 +56,4 @@ I develop program that read text, automatically generate dictionary.
 
 I develop program that generate language principle.
 
-## 참고자료
+## Reference

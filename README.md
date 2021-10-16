@@ -57,3 +57,12 @@ I develop program that read text, automatically generate dictionary.
 I develop program that generate language principle.
 
 ## Reference
+
+열심히 취업한 공대누나. “[C언어 독학하기] 20. 파일 입출력 (fopen_s)”. 공대누나의 일상과 전자공학, 2020년 12월 20일. https://gdnn.tistory.com/100?category=886154.
+청. “[C언어] 파일의 끝 (feof)”. 네이버 블로그 | 청청청. 접근된 2021년 10월 16일. https://blog.naver.com/ehdwls3831/221351564239.
+“C 언어 레퍼런스 - fopen 함수”. 접근된 2021년 10월 16일. https://modoocode.com/58.
+코딩도장. “C 언어 코딩 도장: 70.3 파일에 문자열 쓰기”. 접근된 2021년 10월 2일. https://dojang.io/mod/page/view.php?id=609.
+“C 언어 코딩 도장: 70.4 파일에서 문자열 읽기”. 접근된 2021년 10월 1일. https://dojang.io/mod/page/view.php?id=610.
+공대누나의 일상과 전자공학. “[C언어 독학하기] 21. 파일 입출력, puts fgetc, fputc”, 2020년 12월 31일. https://gdnn.tistory.com/110?category=886154.
+“Integrate with External Tools via Tasks”, 2021년 2월 9일. https://code.visualstudio.com/docs/editor/tasks.
+

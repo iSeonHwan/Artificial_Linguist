@@ -1,5 +1,5 @@
 /*
-정의: 파일이 있는지 여부를 확인하는 프로그램
+define: Program to check in certain folder.
 */
 
 #include <stdio.h>
@@ -19,6 +19,6 @@ int main(void){
 
 
 /*
-끝난 일:
-출처: Bharadwaj, Satishkumar. “C에 파일이 있는지 확인”. Delft Stack, 2020년 12월 25일. https://www.delftstack.com/ko/howto/c/c-check-if-file-exists/.
+finish: 2021.11.03.
+resorce: Bharadwaj, Satishkumar. “C에 파일이 있는지 확인”. Delft Stack, 2020년 12월 25일. https://www.delftstack.com/ko/howto/c/c-check-if-file-exists/.
 */

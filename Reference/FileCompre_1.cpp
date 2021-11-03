@@ -10,16 +10,16 @@ Write date: 2021. 9. 28. ~ 2021. 10. 1.
 
 int main(void){
 
-	//파일 포인터 fp1, fp2, fp3를 선언한다.
+	//declare fp1, fp2, fp3 as file pointer.
 	FILE * fp1;
 	FILE * fp2; 
 	FILE * fp3;
-	//읽어들인 텍스트 파일을 임시로 저장할 (버퍼) 변수 'text'를 만든다.
+	//make 'text' as buffer to save text file temporarily.
 	char text1[100];
 	char text2[100];
 	char text3[100];
-	//텍스트 파일을 읽어들인다.
-	//fopen_s(&fp, "test.txt", "r"); // "r"은 읽기 전용의 옵션을 가리킨다. //우분투 환경에서는 컴파일 오류가 발생하였다. 출처 자료의 빌드 환경은 윈도우의 비주얼 스튜디오 2019였다. 즉, 환경에 따라 지원하는 함수가 달라지는 것 같다.
+	//read text file.
+	//fopen_s(&fp, "test.txt", "r"); 	//"r" is only read mode option. // It occur compile error in ubuntu. build evironment of resource data is windows(visual studio 2019). I think each evironment's offering function is different.
 	fp1 = fopen("test_1.txt", "r");
 	fp2 = fopen("test_2.txt", "r");
 	fp3 = fopen("test_3.txt", "r");
@@ -29,20 +29,20 @@ int main(void){
 	fgets(text3, 100, fp3);
 
 
-	//인덱스 값을 설정한다.
+	//set index value
 	int i = 0;
-	//일정한 인덱스 값이 되기 전까지 반복문을 돈다.
+	//implement iteration statement while index is not equal to 99.
 	while(i != 99){
-	    //버퍼의 배열 위치 값이 서로 동일하다면 인덱스 값을 증가시킨다.
+	    //increament index i if index's value of text1 is equal to index's value of text2.
 	    if(text1[i] == text2[i]){
          i++;
 	    }
-	    //버퍼의 배열 위치 값이 서로 동일하지 않다면 반복문을 빠져 나간다.
+	    //break iteration statement when index's value of text1 is not equal to index's value of text2.
 	    else if(text1[i] != text2[i]){
 	    	break;
 	    }
 	}
-	//인덱스의 값에 따라서 두 버퍼의 값이 같은지 다른지를 판단하여 출력한다.
+	//print result of judgment about two buffer's value equality.
 	if(i == 99){
 		printf("text1 is equal to text2.\n");
 	}
@@ -50,20 +50,20 @@ int main(void){
 		printf("text1 is not equal to text2.\n");
 	}
 
-	//인덱스 값을 설정한다.
+	//set index 'j' value
 	int j = 0;
-	//일정한 인덱스 값이 되기 전까지 반복문을 돈다.
+	//repeat iteration statment befor index j value is certain value.
 	while(j != 99){
-	    //버퍼의 배열 위치 값이 서로 동일하다면 인덱스 값을 증가시킨다.
+	    //increament index j value when each values of same index is equal.
 	    if(text1[j] == text3[j]){
          j++;
 	    }
-	    //버퍼의 배열 위치 값이 서로 동일하지 않다면 반복문을 빠져 나간다.
+	    // break interation statement when each values of same index in not equal.
 	    else if(text1[j] != text3[j]){
 	    	break;
 	    }
 	}
-	//인덱스의 값에 따라서 두 버퍼의 값이 같은지 다른지를 판단하여 출력한다.
+	//print result of judgment about equality of value of index j
 	if(j == 99){
 		printf("text1 is equal to text3.\n");
 	}
@@ -72,7 +72,7 @@ int main(void){
 	}
 
 
-	//읽어들인 텍스트 파일을 닫는다.
+	//close text file.
 	fclose(fp1);
 	fclose(fp2);
 	fclose(fp3);

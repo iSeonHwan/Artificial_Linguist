@@ -30,3 +30,4 @@ machine learning is working to decide a suitable parameter.
 
 Perception can not realize XOR gate. XOR gate is logical circuit to output 1 when just one in x1 or x2 is 1.
 
+Multi-layer perception can realize XOR gate.

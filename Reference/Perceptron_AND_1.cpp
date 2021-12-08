@@ -1,5 +1,5 @@
 /*
-define: Cpp Conversion version of Perception example python program
+define: Cpp Conversion version of Perception example CPP program
 data: 2011.11.15.
 */
 
@@ -12,8 +12,14 @@ int main(void){
     int tmp1 = AND(0, 0);
     printf("%d\n", tmp1);
 
-    int tmp2 = AND(1, 1);
+    int tmp2 = AND(1, 0);
     printf("%d\n", tmp2);
+    
+    int tmp3 = AND(0, 1);
+    printf("%d\n", tmp3);
+    
+    int tmp4 = AND(1, 1);
+    printf("%d\n", tmp4);
 
     return 0;
 }

@@ -9,5 +9,7 @@ Activation fucntion is function to convert input signal to output signal. Activa
 
 Activation function is function to convert sum of input signal to output signal.
 
-Sigmoid function: ![image](https://user-images.githubusercontent.com/84608929/147082916-ed0260ca-6ced-4b34-bc91-4c7564a94e26.png)
+Sigmoid function: 
+
+![image](https://user-images.githubusercontent.com/84608929/147082916-ed0260ca-6ced-4b34-bc91-4c7564a94e26.png)
 

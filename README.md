@@ -2,7 +2,7 @@
 
 ## Background
 
-for efficiently providing confidence and free to people, it is confident to use by people. Human's essential factor is language. Thus, Technology and Robot should comprehend language and speech it. Language is system of communication to use only by human. Natural language is language constructed by Language Acquistion Device(LAD). Natural language processing indicates handling of principle, meaning of natural language. Deductive approach in programing natural language was limits. Inductive method is trouble for human to comprehend result of program constructing artificial neural network.(자료 조사 필요) This method need excessive plenty of resource in coumputer. (자료 조사 필요) I want to make program to construct itself Linguistic principle. I want to make program that human understand result of artificial language acquisition.
+for efficiently providing confidence and free to people, it is confident to use by people. Human's essential factor is language. Thus, Technology and Robot should comprehend language and speech it. Language is system of communication to use only by human. Natural language is language constructed by Language Acquistion Device(LAD). Natural language processing indicates handling of principle, meaning of natural language. Deductive approach in programing natural language was limits. Inductive method is trouble for human to comprehend result of program constructing artificial neural network.(need to more research) This method need excessive plenty of resource in coumputer. (need to more research) I want to make program to construct itself Linguistic principle. I want to make program that human understand result of artificial language acquisition.
 
 ## Goal
 
@@ -55,6 +55,10 @@ I develop program that read text, automatically classify language unit(morpheme,
 I develop program that read text, automatically generate dictionary.
 
 I develop program that generate language principle.
+
+## Idea
+
+Analyzer programe connect article, text in hard disk drive.(How?) -> Make matrix of connect information.
 
 ## Reference
 

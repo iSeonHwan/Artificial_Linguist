@@ -30,3 +30,11 @@ ReLU is Rectified Linear Unit.
 Graph: ![image](https://user-images.githubusercontent.com/84608929/147563315-56df6ed7-4210-44e2-9f91-ba51be885747.png)
 
 
+## inference of Neural Network
+
+
+forward propagation: input layer -> output layer
+
+backward propagation: input layer <- output layer
+
+

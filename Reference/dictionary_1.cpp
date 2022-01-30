@@ -7,7 +7,7 @@ source: https://stackoverflow.com/questions/15151480/simple-dictionary-in-c
 #include <iostream>
 #include <map>
 
-typedef std::map<char, char> BasePairMap;
+typedef std::map<char, char> BasePairMap; // typedef is function to creates an alias that can be used anywhere in place of a (possibly complex) type name.
 
 int main()
 {

@@ -37,4 +37,20 @@ forward propagation: input layer -> output layer
 
 backward propagation: input layer <- output layer
 
+classification
 
+function using in classification is softmax function:
+![image](https://user-images.githubusercontent.com/84608929/152625050-2b9ae212-2d91-4212-ba78-002ac22b77bc.png)
+
+exp(x): exponential function meaning to ![image](https://user-images.githubusercontent.com/84608929/152625166-f893f4a8-599c-46ac-847f-432763c373d4.png)
+
+n: number of neuron
+
+![image](https://user-images.githubusercontent.com/84608929/152625276-378645bc-93ff-4f51-b7b9-8a6d6fe13bff.png): output of k order.
+
+
+
+
+
+
+regression

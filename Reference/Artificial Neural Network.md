@@ -51,6 +51,11 @@ n: number of neuron
 
 
 
-
-
 regression
+
+## Softmax function
+
+output of softmax function is  real number between 0 and 1.
+the sum of real numbers is 1.
+thus, It is used as probability.
+

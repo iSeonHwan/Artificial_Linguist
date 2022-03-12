@@ -1,8 +1,11 @@
 # Reading List
 
 
-CPP: 
-https://en.cppreference.com/w/cpp/io/manip
+cppreference: 
+https://en.cppreference.com/w/cpp/filesystem
+
+docs.microsoft.com:
+https://docs.microsoft.com/ko-kr/cpp/standard-library/cpp-standard-library-reference?view=msvc-170
 
 I will translate a article:
 https://en.cppreference.com/w/cpp/io/manip/ws

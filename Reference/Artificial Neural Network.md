@@ -63,3 +63,8 @@ thus, It is used as probability.
 
 ![image](https://user-images.githubusercontent.com/84608929/165290208-f5b077d2-a6fd-4304-8066-ebb131a00361.png)
 
+overflow problem
+
+improve
+
+![image](https://user-images.githubusercontent.com/84608929/165292161-ee742a15-85b8-4ed7-97b4-b21b83f289b5.png)

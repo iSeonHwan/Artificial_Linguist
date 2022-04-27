@@ -59,3 +59,12 @@ output of softmax function is  real number between 0 and 1.
 the sum of real numbers is 1.
 thus, It is used as probability.
 
+![image](https://user-images.githubusercontent.com/84608929/165288819-3e4f58d2-f426-47bb-8a7d-0d898265fa95.png)
+
+![image](https://user-images.githubusercontent.com/84608929/165290208-f5b077d2-a6fd-4304-8066-ebb131a00361.png)
+
+overflow problem
+
+improve
+
+![image](https://user-images.githubusercontent.com/84608929/165292161-ee742a15-85b8-4ed7-97b4-b21b83f289b5.png)

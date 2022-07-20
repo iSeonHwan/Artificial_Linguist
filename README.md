@@ -46,7 +46,7 @@ for efficiently providing confidence and free to people, it is confident to use 
 
     - to use C, C++ as Major programing language.
 
-    - to minimize of momory usage amount.
+    - to minimize of memory usage amount.
 
 ## Step
 

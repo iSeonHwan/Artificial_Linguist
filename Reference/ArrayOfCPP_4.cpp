@@ -6,7 +6,7 @@ int main()
 {
     typedef std::array<double, 4> Myarray;
 
-    Myarray c0 = { 0.5, 1.4, 2.3, 3.2 };
+    Myarray c0 = { 0.5, 1.4, 2.3 };
 
     // display contents " 0 1 2 3"
     for (const auto& it : c0)

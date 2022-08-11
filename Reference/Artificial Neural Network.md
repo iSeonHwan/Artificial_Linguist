@@ -1,5 +1,10 @@
 # Aritificial Neural Network
 
+learning is determining optimum value of weighting parameter from traning data.
+
+learning paradigm:
+![image](https://user-images.githubusercontent.com/84608929/184159625-208afd64-4800-44ef-800d-4db636071919.png)
+
 
 Organization: input layer, hidden layer, output layer
 

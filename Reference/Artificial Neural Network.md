@@ -3,7 +3,8 @@
 learning is determining optimum value of weighting parameter from traning data.
 
 learning paradigm:
-![image](https://user-images.githubusercontent.com/84608929/184159625-208afd64-4800-44ef-800d-4db636071919.png)
+![image](https://user-images.githubusercontent.com/84608929/184160429-9ed46520-f280-4950-ab4e-451363c62bd5.png)
+end-to-end machine learning: No intervening by human from start to finish.
 
 
 Organization: input layer, hidden layer, output layer

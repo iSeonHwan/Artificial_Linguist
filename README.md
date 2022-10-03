@@ -68,8 +68,11 @@ Analyzer programe connect article, text in hard disk drive.(How?) -> Make matrix
 ## Inheritance
 
 class Word{
+
   //information 1
+  
   //information 2
+  
 }
 
 Word information inheritate phrase.

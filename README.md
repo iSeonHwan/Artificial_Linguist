@@ -65,6 +65,21 @@ Analyzer programe connect article, text in hard disk drive.(How?) -> Make matrix
 ![image](https://user-images.githubusercontent.com/84608929/180610030-a4bc4598-bc86-4e16-a029-ef7fbd1f7973.png)
 
 
+## Inheritance
+
+class Word{
+  //information 1
+  //information 2
+}
+
+Word information inheritate phrase.
+
+Word -> phrase.
+
+Sentence: principle of compositionality.
+
+
+
 ## Reference
 
 열심히 취업한 공대누나. “[C언어 독학하기] 20. 파일 입출력 (fopen_s)”. 공대누나의 일상과 전자공학, 2020년 12월 20일. https://gdnn.tistory.com/100?category=886154.

@@ -99,3 +99,4 @@ Sentence: principle of compositionality.
 
 “Integrate with External Tools via Tasks”, 2021년 2월 9일. https://code.visualstudio.com/docs/editor/tasks.
 
+김현정, "연합학습, ‘집단지성’의 디지털 버전이 될 수 있을까?", https://www.sciencetimes.co.kr/news/%ec%97%b0%ed%95%a9%ed%95%99%ec%8a%b5-%ec%a7%91%eb%8b%a8%ec%a7%80%ec%84%b1%ec%9d%98-%eb%94%94%ec%a7%80%ed%84%b8-%eb%b2%84%ec%a0%84%ec%9d%b4-%eb%90%a0-%ec%88%98-%ec%9e%88%ec%9d%84/?cat=16933, 사이언스타임즈, 2020. 9. 28., 2022. 10. 23. 확인함.

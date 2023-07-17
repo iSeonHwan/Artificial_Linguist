@@ -64,16 +64,27 @@ Analyzer programe connect article, text in hard disk drive.(How?) -> Make matrix
 
 ## Algoritm
 
-![image](https://user-images.githubusercontent.com/84608929/180610030-a4bc4598-bc86-4e16-a029-ef7fbd1f7973.png)
+Program learn a language.
 
+Program use a language.
+
+Program explain a language.
+
+Program show process of learning language.
+  - How? visualize neural network
+  - How? make a program that explain a program learing language.
+
+## Federated Learning
+
+## HPSG
 
 ## Inheritance
 
 class Word{
 
-  //information 1
+  //information 1: part of speech
   
-  //information 2
+  //information 2: meaning
   
 }
 
@@ -83,7 +94,6 @@ Word -> phrase.
 
 Sentence: principle of compositionality.
 
-## Federated Learning
 
 
 ## Reference

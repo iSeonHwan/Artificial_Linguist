@@ -14,6 +14,8 @@ for efficiently providing confidence and free to people, it is confident to use 
 
 4. Program speeching language message according to certain context.
 
+5. Showing linguistic rule in artificial neural network
+
 ## Basic Idea
 
 1. I will make Program to realize language acquisition process

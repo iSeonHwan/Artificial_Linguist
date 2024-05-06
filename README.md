@@ -54,7 +54,7 @@ for efficiently providing confidence and free to people, it is confident to use 
 
 I develop program that read text, automatically classify language unit(morpheme, word, sentence, discourse, etc).
 
-I develop program that read text, automatically generate dictionary.
+I develop program that read text, automatically generate dictionary. I make a basic outline of matrix about word information. this matrix is based on HPSG. Next Machine Learning will fill Matrix, make matrix of word information.
 
 I develop program that generate language principle.
 

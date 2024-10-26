@@ -20,18 +20,24 @@ for efficiently providing confidence and free to people, it is confident to use 
 
 1. I will make Program to realize language acquisition process
 
-  - The program construct language principle itself, which do not receive input of rule that user make.
+    - The program construct language principle itself, which do not receive input of rule that user make.
   
+
+
 2. input data is limited. The scope is decided by user.
+
 
 
 3. I design program reflected HPSG, transformational generative grammar, etc of universal language rule.
 
-  - using transformational grammar to language development stage.
+    - using transformational grammar to language development stage.
    
-  - using HPSG when language development step complete.
+    - using HPSG when language development step complete.
+
+
 
 4. User input language data.
+
 
 5. Program analyse language data(usually sentence) according to associated or integrated relation.
 
@@ -42,13 +48,24 @@ for efficiently providing confidence and free to people, it is confident to use 
     - to save, use with frame based upon HPSG matrix about language unit of arbitrary relation about meaning and expression.
 
 
-6. This program reflect learning step of Gagne's Theory.
+6. Data should be written in documents or structures that are readable and understandable by humans.
 
-7. This program utilize saving and handling of information efficiently 
+
+7. This program reflect learning step of Gagne's Theory.
+
+
+9. This program utilize saving and handling of information efficiently 
 
     - to use C, C++ as Major programing language.
 
     - to minimize of memory usage amount.
+
+
+10. Using human's sleeping Mechanism forgeting + reconstruct unnescessary information(data) ⇒ Optimize neuron system 
+
+
+11. Using Wikipedia data ⇒ Artificial system communicate human's collective ingelligence 
+
 
 ## Step
 

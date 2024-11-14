@@ -69,6 +69,8 @@ for efficiently providing confidence and free to people, it is confident to use 
 
 ![image](https://github.com/user-attachments/assets/00d47952-8c7d-41d5-bfd2-0e30cefa0d71)
 
+By sharing Wikipedia between AI and humans, we can enhance mutual understading and enable effective and efficient collaboration.
+
 
 ## Step
 

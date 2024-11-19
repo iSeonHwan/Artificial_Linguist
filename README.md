@@ -137,3 +137,5 @@ Sentence: principle of compositionality.
 김현정, "연합학습, ‘집단지성’의 디지털 버전이 될 수 있을까?", https://www.sciencetimes.co.kr/news/%ec%97%b0%ed%95%a9%ed%95%99%ec%8a%b5-%ec%a7%91%eb%8b%a8%ec%a7%80%ec%84%b1%ec%9d%98-%eb%94%94%ec%a7%80%ed%84%b8-%eb%b2%84%ec%a0%84%ec%9d%b4-%eb%90%a0-%ec%88%98-%ec%9e%88%ec%9d%84/?cat=16933, 사이언스타임즈, 2020. 9. 28., 2022. 10. 23. 확인함.
 
 김현정, 연합학습, ‘집단지성’의 디지털 버전이 될 수 있을까?, 2022. 9. 28., ScienceTimes, https://www.sciencetimes.co.kr/news/%EC%97%B0%ED%95%A9%ED%95%99%EC%8A%B5-%EC%A7%91%EB%8B%A8%EC%A7%80%EC%84%B1%EC%9D%98-%EB%94%94%EC%A7%80%ED%84%B8-%EB%B2%84%EC%A0%84%EC%9D%B4-%EB%90%A0-%EC%88%98-%EC%9E%88%EC%9D%84/, Reading by 2022. 11. 7.
+
+박찬, "구글, LLM 내부 해석 가능한 아키텍처 공개…오픈AI·앤트로픽 흡사한 '희소 오토인코더' 방식", 2024. 7. 28., AI타임스, https://m.news.zum.com/articles/92265346?cm=front_news_text_1&r=1, 2024. 11. 19.에 확인함.
